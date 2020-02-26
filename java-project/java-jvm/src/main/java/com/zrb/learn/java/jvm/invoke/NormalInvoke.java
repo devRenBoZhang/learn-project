@@ -25,7 +25,7 @@ public class NormalInvoke {
     public class Man extends Human {
         @Override
         public String printHumanInfo() {
-            return "mam";
+            return "man";
         }
     }
 
@@ -40,7 +40,6 @@ public class NormalInvoke {
 
     public void invokeOverride() {
         Human human = getHumanByStr("man");
-        System.out.println(human.printHumanInfo());
         System.out.println(human.printHumanInfo());
     }
 
