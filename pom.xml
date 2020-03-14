@@ -23,6 +23,7 @@
         <module>mode-project</module>
         <module>java-project</module>
         <module>train-project</module>
+		<module>algorithm-project</module>
     </modules>
     <dependencyManagement>
         <dependencies>

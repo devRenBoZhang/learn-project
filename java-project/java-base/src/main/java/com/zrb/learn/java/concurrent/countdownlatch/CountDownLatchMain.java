@@ -32,7 +32,7 @@ public class CountDownLatchMain {
                 System.out.println("thread invoke finish and countDown. name:" + Thread.currentThread().getName() + ", num:" +endSignal.getCount());
             }).start();
         }
-
+        System.out.println("main invoke start but sleep while");
         //子线程都开始执行
         TimeUnit.SECONDS.sleep(10);
         startSignal.countDown();
